@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="page logo/logo.PNG" type="image/x-icon">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="visit_page/style.css">
+    <link rel="stylesheet" href="index_page/style.css">
+    <title>Kvernadze - University</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header_logo">
+            <img src="page logo/logo.PNG" alt="Kvernadze University Logo">
+        </div>
+        <nav class="header_nav">
+            <ul id="navLinks">
+                <li><a href="index.html">მთავარი</a></li>
+                <li><a href="about.html">ჩვენს შესახებ</a></li>
+                <li><a href="courses.html">ფაკულტეტები</a></li>
+                <li><a href="contact.html">კონტაქტი</a></li>
+                <li><a href="visit.html">ვიზიტი</a></li>
+            </ul>
+        </nav>
+        <div class="search_container">
+            <input type="text" placeholder="რას ვეძებთ?" class="search_input">
+            <button>
+                <img src="index_page/img/magnifying-glass-solid 1.png" alt="Search" class="search-icon">
+            </button>
+        </div>
+        <div class="burger" id="burger">
+            <img src="index_page/img/bar1.svg" alt="Menu" class="burger-icon">
+        </div>
+    </header>
+
+    <div class="title">
+        <h1>ჩვენთან ვიზიტს გეგმავ?</h1>
+        <h2>აგერ ამინდის პროგნოზი და დაგეგმე</h2>
+    </div>
+
+
+    <section class="weather_sec">
+        <div>
+            <h2>თბილისის ამინდი ამ წუთებში</h2>
+            <div id="weather">იტვირთება...</div>
+        </div>
+        <div class="kveran-cont">
+           <img src="visit_page/img/kverna3.png" alt="kverna3" class="kverna3"> 
+        </div>
+    </section>
+    
+    <section class="register">
+        <div class="register-div">
+            <h2>დარეგისტრირდი რომ გვეწვიო</h2>
+            <form id="registerForm" class="register-form">
+                <input type="text" placeholder="სახელი/გვარი"id="username" name="username" required />
+                <input type="email" placeholder="ელფოსტა" id="email" name="email" required />
+                <input type="password" placeholder="პაროლი" id="password" name="password" required />
+                <input type="password" placeholder="გაიმეორეთ პაროლი" id="confirmPassword" name="confirmPassword" required />
+                <button type="submit" class="reg_btn">რეგისტრაცია</button>
+            </form>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+    <footer>
+            <div class="footer_content">
+                <div class="footer_logo">
+                    <img src="page logo/logo.PNG" alt="Kvernadze University Logo">
+                </div>
+                <div class="footer_links">
+                    <div class="div1">
+                        <ul>
+                            <li><a href="index.html">მთავარი</a></li>
+                            <li><a href="about.html">ჩვენს შესახებ</a></li>
+                            <li><a href="courses.html">ფაკულტეტები</a></li>
+                        </ul>
+                    </div>
+                    <div class="div1">
+                        <ul>
+                            <li><a href="contact.html">კონტაქტი</a></li>
+                            <li><a href="contact.html">ვიზიტი</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="footer_ser">
+                    <p>"SIS სერტიფიკატი გვაქ, სიტყვაზე გვენდეთ :),,</p>
+                </div>
+            </div>
+            <div class="ofc">
+                <p>სულხან კვერნაძის უნივერსიტეტი ©  2025. ყველა უფლება დაცულია!</p>
+            </div>
+    </footer>
+
+    <script src="burgerbar.js"></script>
+    <script src="visit_page/script.js"></script>
+</body>
+</html>
